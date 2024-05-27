@@ -1,0 +1,122 @@
+.shop_vinyl {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+#img_shop {
+  width: 350px;
+  height: 490px;
+  border: 2px solid #aa9696;
+  border-radius: 10px;
+  padding: 10px;
+}
+.shop_vinyl h1 {
+  width: 90%;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  display: block;
+  margin-top: 20px;
+}
+.slika_shop {
+  width: 25%;
+  float: left;
+  order: 1;
+}
+
+.opis {
+  color: #504b4b;
+  font-size: 17px;
+  text-align: right;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.shop_vinyl b {
+  font-size: larger;
+}
+.shop_vinyl b,
+.shop_vinyl h3 {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+}
+.opis p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#naslov {
+  height: 200px;
+  width: 620px;
+}
+/* hr {
+  background-color: #4a4747;
+  height: 1px;
+  width: 60%;
+  margin-bottom: 1px;
+} */
+
+.tekst {
+  width: 50%;
+  order: 2;
+  text-align: left;
+}
+
+#Name {
+  color: #201d1d;
+  text-shadow: 10px 5px 5px #d7c1c1;
+  font-size: 70px;
+  font-weight: 800;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pageslika {
+  width: 600px;
+  height: 200px;
+  position: relative;
+  z-index: 0;
+}
+
+.pagediv {
+  position: relative;
+}
+.hrbook {
+  border: 1px solid #b3a4a4;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tekst h3 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.tekst button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #201d1d;
+  color: #d7c1c1;
+}
+
+.izvorbook {
+  color: #d7c1c1;
+  font-size: 18px;
+}
+.izvorbook:visited {
+  color: #845635;
+}
+.izvorbook:hover {
+  color: #6b5a5a;
+}
+
+.linkPisac {
+  color: #6b5a5a;
+}

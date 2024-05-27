@@ -1,0 +1,54 @@
+.headerslikapisci {
+  height: 400px;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+}
+.pisac {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pisacslika {
+  width: 210px;
+  height: 290px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.pisac h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 90px;
+  font-size: 90px;
+  color: rgb(33, 28, 22);
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 5px 5px #a5a29b;
+}
+.okvir {
+  display: block;
+  width: 370px;
+  height: 520px;
+}
+.autorslikadiv {
+  width: 330px;
+  height: 520px;
+  position: relative;
+  display: block;
+  margin-right: 50px;
+}
+.mainpisac {
+  padding-top: 60px;
+  margin: auto;
+  width: 1200px;
+}
+.mainpisac h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.mainpisac p {
+  font-size: 20px;
+}

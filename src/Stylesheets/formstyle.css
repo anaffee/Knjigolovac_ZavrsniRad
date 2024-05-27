@@ -1,0 +1,96 @@
+.bgform {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #231812;
+  position: relative;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+}
+
+.bgform h1 {
+  width: 900px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(46, 41, 41);
+  text-shadow: 2px 2px 4px #b3a0a0;
+}
+
+.pageclass {
+  width: 100%;
+  height: 300px;
+}
+
+.formmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forme {
+  background-color: rgb(198, 190, 186);
+  width: 45%;
+  border-radius: 20px;
+}
+
+.inputodg {
+  background-color: rgb(198, 190, 186);
+  width: 40%;
+  border-radius: 20px;
+  height: 200px;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: solid 5px #322c2b;
+  border-radius: 20px;
+}
+
+form h2 {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #322c2b;
+  padding: 10px;
+  color: #c8b1a2;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.inputiacc {
+  margin: auto;
+  font-size: 15px;
+  padding: 10px;
+  float: left;
+  margin-top: 5%;
+}
+
+.inputiacc h3 {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formhr {
+  border: 2px solid #6e5d54;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
